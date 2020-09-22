@@ -1,0 +1,68 @@
+﻿@charset "UTF-8";
+
+@font-face {
+  font-family: 'YuGothic';
+  src: url("../fonts/YuGothic-Bold.eot") format("embedded-opentype");
+  src: url("../fonts/YuGothic-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'YuGothic';
+  src: url("../fonts/YuGothic-Regular.eot") format("embedded-opentype");
+  src: url("../fonts/YuGothic-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 13px/20px "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  letter-spacing: 0.01em;
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #fff;
+  color: #000000;
+  padding: 0 !important;
+  font-size: 15px;
+  line-height: 1.65;
+  -webkit-transition: .3s all;
+  transition: .3s all; 
+  position: relative;
+  font-weight: normal;
+  overflow-x: hidden; }
+  body h1, body h2, body h3, body h4, body h5, body h6, body p, body label, body ul, body li, body .card, body a {
+    text-decoration: none !important;
+    -webkit-transition: .3s all;
+    transition: .3s all;
+    outline: none !important; }
+  body a {
+    -webkit-transition: .3s all;
+    transition: .3s all;
+    color: #000000; }
+  body ul {
+    padding: 0;
+    margin: 0; }
+  body li {
+    list-style: none; }
+  body input, body button {
+    outline: none !important;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    -webkit-transition: .3s all;
+    transition: .3s all; }
+  body .container {
+    width: 100%;
+    max-width: 1150px; }
+
+
+img {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+}
